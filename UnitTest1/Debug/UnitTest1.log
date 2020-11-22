@@ -1,2 +1,4 @@
-﻿     Creating library F:\Универ\Прога 3 сем\AlgAndDataStruct2\Project1\Debug\UnitTest1.lib and object F:\Универ\Прога 3 сем\AlgAndDataStruct2\Project1\Debug\UnitTest1.exp
-  UnitTest1.vcxproj -> F:\Универ\Прога 3 сем\AlgAndDataStruct2\Project1\Debug\UnitTest1.dll
+﻿  pch.cpp
+  UnitTest1.cpp
+     Создается библиотека D:\Прога 3 сем\AlgAndDataStruct2\Project1\Debug\UnitTest1.lib и объект D:\Прога 3 сем\AlgAndDataStruct2\Project1\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> D:\Прога 3 сем\AlgAndDataStruct2\Project1\Debug\UnitTest1.dll
