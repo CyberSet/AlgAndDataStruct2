@@ -9,5 +9,6 @@ void bogoSort(int* arr, int size);
 void countingSort(char* arr, int size);
 void printArray(int* arr, int size);
 void printArray(char* arr, int size);
+void printArray(double* arr, int size);
 bool isSorted(int arr[], int n);
 #endif

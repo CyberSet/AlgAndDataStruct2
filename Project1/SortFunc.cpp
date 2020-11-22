@@ -18,6 +18,11 @@ void printArray(char* arr, int size) {
     cout << endl;
 }
 
+void printArray(double* arr, int size) {
+    for (int i = 0; i < size; i++) cout << *(arr + i) << " ";
+    cout << endl;
+}
+
 bool isSorted(int arr[], int n) {
     int i = 0;
     while (i < n - 1)
@@ -86,7 +91,7 @@ void insertionSort(int* arr, int size) {
     }
 }
 
-void shuffle(int arr[], int n)
+void shuffle(int* arr, int n)
 {
     for (int i = 0; i < n; i++)
         swap(arr[i], arr[rand() % n]);
@@ -100,7 +105,7 @@ void countingSort(char* arr, int size) {
     int max = 0;
     for (int i = 0; i < size; i++)
         if (*(arr + i) > max) max = *(arr + i);
-    max -= 33;
+    max -= 32;
     int* temp = new int[max];
     for (int i = 0; i < max; i++) temp[i] = 0;
     for (int i = 0; i < size; i++) temp[arr[i] - 33]++;
